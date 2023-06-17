@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Temukan, Pilih, dan Sewa Mobil - Mudah dan Cepat
+          Temukan dan Sewa Mobil - Mudah dan Cepat
         </h1>
         <p className="hero__subtitle">
           Nikmati pengalaman rental mobil "Anti Ribet" dengan harga terjangkau
