@@ -10,10 +10,10 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Temukan, Cari, dan Rental Mobil - Mudah dan Cepat
+          Temukan, Pilih, dan Sewa Mobil - Mudah dan Cepat
         </h1>
         <p className="hero__subtitle">
-          Nikmati pengalaman rental mobil Anti Ribet dengan harga terjangkau
+          Nikmati pengalaman rental mobil "Anti Ribet" dengan harga terjangkau
         </p>
         <CustomButton
           title="Jelajahi Sekarang"
@@ -29,8 +29,8 @@ const Hero = () => {
             fill
             className="object-contain"
           />
-          <div className="hero__image-overlay"></div>
         </div>
+        <div className="hero__image-overlay"></div>
       </div>
     </div>
   );
