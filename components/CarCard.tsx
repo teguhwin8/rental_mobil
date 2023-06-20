@@ -27,6 +27,10 @@ const CarCard = ({ car }: CarCardProps) => {
         {carRent}
         <span className="self-end text-[14px] font-medium">/day</span>
       </p>
+
+      <div className="w-full relative object-contain h-40 my-3">
+        <Image src="/hero.png" fill className="object-contain" alt="" />
+      </div>
     </div>
   );
 };
