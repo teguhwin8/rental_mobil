@@ -5,6 +5,7 @@ import Image from "next/image";
 import { CarProps } from "@/types";
 import { calculateCarRent } from "@/utils";
 import CustomButton from "./CustomButton";
+import CardDetails from "./CardDetails";
 
 interface CarCardProps {
   car: CarProps;
@@ -31,7 +32,13 @@ const CarCard = ({ car }: CarCardProps) => {
       </p>
 
       <div className="w-full relative object-contain h-40 my-3">
-        <Image src="/hero.png" fill className="object-contain" alt="" />
+        <Image
+          src="/hero.png"
+          fill
+          priority
+          className="object-contain"
+          alt=""
+        />
       </div>
 
       <div className="flex w-full relative mt-2">
@@ -68,6 +75,12 @@ const CarCard = ({ car }: CarCardProps) => {
             handleClick={() => setIsOpen(!isOpen)}
           />
         </div>
+
+        <CardDetails
+          isOpen={isOpen}
+          closeModal={() => setIsOpen(false)}
+          car={car}
+        />
       </div>
     </div>
   );
