@@ -94,10 +94,10 @@ const CardDetails = ({ car, isOpen, closeModal }: CardDetailsProps) => {
                     <div className="flex flex-col gap-4">
                       {Object.entries(car).map(([key, value]) => (
                         <div key={key} className="flex justify-between">
-                          <h4 className="font-bold capitalize">
+                          <h4 className="capitalize text-gray-400">
                             {key.split("_").join(" ")}
                           </h4>
-                          <p>{value}</p>
+                          <p className="font-bold capitalize">{value}</p>
                         </div>
                       ))}
                     </div>
