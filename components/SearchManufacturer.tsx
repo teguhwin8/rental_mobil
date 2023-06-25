@@ -31,7 +31,7 @@ const SearchManufacturer = ({
             <Image src="/car-logo.svg" alt="Car Logo" width={20} height={20} />
           </Combobox.Button>
           <Combobox.Input
-            className="search-manufacturer__input"
+            className="search-manufacturer__input outline-none border-none focus:ring-0 focus:outline-0"
             placeholder="Toyota"
             displayValue={(manufacturer: string) => manufacturer}
             onChange={(e) => setQuery(e.target.value)}
