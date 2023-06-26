@@ -75,7 +75,7 @@ const SearchBar = () => {
           name="model"
           value={model}
           placeholder="Model"
-          className="searchbar__input"
+          className="searchbar__input outline-none border-none focus:ring-0 focus:outline-0"
           onChange={(e) => setModel(e.target.value)}
         />
         <SearchButton otherClass="sm:hidden" />
