@@ -46,10 +46,11 @@ export interface FilterProps {
 
 export interface OptionsProps {
   title: string;
-  value: string | number;
+  value: string;
 }
 
 export interface CustomFilterProps {
   title: string;
   options: OptionsProps[];
+  name?: string;
 }

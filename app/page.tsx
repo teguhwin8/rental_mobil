@@ -32,8 +32,8 @@ export default async function Home({
         <div className="home__filters">
           <SearchBar />
           <div className="home__filter-container">
-            <CustomFilter title="Bahan Bakar" options={fuels} />
-            <CustomFilter title="Tahun" options={yearsOfProduction} />
+            <CustomFilter title="Bahan Bakar" options={fuels} name="fuel_type" />
+            <CustomFilter title="Tahun" options={yearsOfProduction} name="year" />
           </div>
         </div>
 

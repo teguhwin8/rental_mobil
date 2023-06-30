@@ -58,15 +58,15 @@ export const yearsOfProduction = [
 export const fuels = [
   {
     title: "Bensin",
-    value: "",
+    value: "gas",
   },
   {
     title: "Solar",
-    value: "Solar",
+    value: "diesel",
   },
   {
     title: "Mobil Listrik",
-    value: "Mobil Listrik",
+    value: "electricity",
   },
 ];
 
